@@ -3,7 +3,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 // src/store/slice/balanceSheetSlice.jsx
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3000';
+const API_URL = process.env.REACT_APP_API_URL || 'www.modernbakery.shop';
 
 export const fetchBalanceSummary = createAsyncThunk(
   'balanceSheet/fetchSummary',
