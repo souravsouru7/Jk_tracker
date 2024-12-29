@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3000';
+const API_URL = process.env.REACT_APP_API_URL || 'www.modernbakery.shop';
 
 const getAuthHeader = () => {
   const token = localStorage.getItem('token');
